@@ -1,3 +1,14 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(188, 231, 255);
+
+}
+img{
+    border-radius: 500px;
+    border: 2px black;
+}
+.faixa-cabeca{
+    height: 120px;
+    background-color: rgb(110, 169, 221);
+    margin: 0px 0px;
+
 }
