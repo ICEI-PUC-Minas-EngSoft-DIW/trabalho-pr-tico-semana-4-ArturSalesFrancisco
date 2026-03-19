@@ -1,14 +1,46 @@
 body {
-    background-color: rgb(188, 231, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
-img{
+.imagem1{
     border-radius: 500px;
     border: 2px black;
 }
-.faixa-cabeca{
-    height: 120px;
-    background-color: rgb(110, 169, 221);
-    margin: 0px 0px;
+.centro {
+  text-align: center;
+}
+.faixa-topo{
+  background-image: url("images/chico2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+h1{
+    color: black;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 10px;
+  margin: 0;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #00eeff;
 }
