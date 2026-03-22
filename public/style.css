@@ -1,13 +1,12 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: antiquewhite;
     color: rgb(0, 0, 0);
-
 }
 .centro {
   text-align: center;
 }
 .faixa-topo{
-  background-image: url("images/chico2.jpg");
+  background-image: url("images/Chicodeitado.jpg");
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -19,7 +18,8 @@ body {
   color: white;
 }
 h1{
-    color: black;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 .menu {
   list-style: none;
@@ -38,5 +38,81 @@ h1{
   font-weight: bold;
 }
 .menu a:hover {
-  color: #00eeff;
+  color: #40bec7;
+}
+h2{
+  text-align: center;
+}
+.faixa-baixa{
+  background-color: #000000;
+  padding: 5px;
+}
+p{
+  text-align: center;
+  color: white;
+}
+.button{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.cabeça{
+  background-color: rgb(65, 210, 147);
+  border: 2px solid #000000;
+  padding: 5px;
+}
+.barra{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.caixa-pesquisa{
+  background-color: white;
+  border: 2px dashed solid black;
+  width: 300px;
+  font-size: 16px;
+}
+.caixa-botao{
+   padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container{
+  display: flex;
+}
+.faixa-meio{ 
+  align-items: center;
+  background-image: url(images/chicoquadrinho.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  width: 45%;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-align: center;
+}
+.faixa-lateral{
+  background-image: url(images/chico1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  width: 10%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.faixa-lateral2{
+  background-image: url(images/chicopersonagens.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  width: 10%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
 }
